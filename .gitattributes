@@ -1,0 +1,15 @@
+# 确保文本文件使用正确的行尾符
+* text=auto
+
+# 明确指定某些文件类型
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+
+# 二进制文件
+*.pdf binary
+*.docx binary
+*.doc binary
+
